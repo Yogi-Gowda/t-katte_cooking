@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Tharamanakatte Boys - Cooking Adventures',
-  description: 'Join us on our culinary journey as we explore amazing recipes together',
+  description: 'Join us on our beautifull journey as we explore amazing recipes together',
 };
 
 export default function RootLayout({

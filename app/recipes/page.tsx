@@ -4,53 +4,101 @@ import { ChefHat, Clock } from 'lucide-react';
 export default function Recipes() {
   const recipes = [
     {
-      title: "Traditional Biryani",
-      description: "A fragrant and flavorful rice dish with tender meat and aromatic spices, cooked to perfection using traditional methods passed down through generations.",
+      slug: "biryani",
+      title: "Chicken Biryani",
+      description: "A well cooked rice recipe with traditional method of cooking with fossils and well roasted chicken kabab with no extra packaged masala added.",
       images: [
-        "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg",
-        "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
-        "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg",
-        "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg"
+        "bir1.jpg",
+        "bir2.jpg",
+        "bir3.jpg",
+        "bir4.jpg"
       ]
     },
     {
-      title: "Spicy Fish Curry",
-      description: "Fresh fish cooked in a rich, coconut-based curry with a perfect blend of local spices. This recipe brings the coastal flavors right to your table.",
+      slug: "coconut",
+      title: "Stealing Coconut",
+      description: "fill the description",
       images: [
-        "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
-        "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg",
-        "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg",
-        "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg"
+        "coc1.jpg",
+      "coc2.jpg",
+      "coc3.jpg", 
+      "coc4.jpg"
       ]
     },
     {
-      title: "Homemade Dosas",
-      description: "Crispy, golden dosas made from fermented rice and lentil batter, served with coconut chutney and sambar. A South Indian breakfast classic.",
+      slug: "payasa",
+      title: "Suryavamsada Gasgase Payasa",
+      description: "A traditional sweet dessert prepared by slowly simmering tender gasagase stems in fresh milk, with natural jaggery or sugar added. The dish is cooked over a low flame in clay pots, allowing the flavors to blend naturally, resulting in a creamy, slightly grassy-sweet treat without any packaged ingredients.",
       images: [
-        "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg",
-        "https://images.pexels.com/photos/5560764/pexels-photo-5560764.jpeg",
-        "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg",
-        "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg"
+        "gas1.jpg",
+        "gas2.jpg",
+        "gas3.jpg",
+        "gas4.jpg"
       ]
     },
     {
-      title: "Coconut Rice",
-      description: "Aromatic coconut rice infused with curry leaves and mustard seeds. A simple yet delicious dish that perfectly complements spicy curries.",
+      slug: "ginnu",
+      title: "Ginanna(Belladanna)",
+      description: "fill the description",
       images: [
-        "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg",
-        "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
-        "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg",
-        "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg"
+        "ginnu1.jpg",
+      "ginnu2.jpg",
+      "ginnu3.jpg",
+      "ginnu4.jpg"
       ]
     },
     {
-      title: "Masala Chicken",
-      description: "Tender chicken pieces marinated in yogurt and spices, then slow-cooked in a rich, tomato-based gravy with aromatic herbs and traditional spices.",
+      slug: "mango",
+      title: "Stealing Mango and Coconut",
+      description: "fill the decription",
       images: [
-        "https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg",
-        "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg",
-        "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
-        "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg"
+        "man1.jpg",
+      "man2.jpg", 
+      "man3.jpg",
+      "man4.jpg"
+      ]
+    },
+    {
+      slug: "sweet",
+      title: "Mitaayi",
+      description: "fill the description",
+      images: [
+        "mit1.jpg",
+      "mit2.jpg", 
+      "mit3.jpg",
+      "mit4.jpg"
+      ]
+    },
+    {
+      slug: "parota",
+      title: "Parota and Chicken",
+      description: "Hand-rolled layered flatbreads made with wheat flour and ghee, cooked over a hot griddle without any artificial additives. Each parota is gently roasted until perfectly flaky and golden.A well-cooked rice recipe where basmati rice is slow-cooked with hand-marinated chicken, natural spices (like cardamom, cinnamon, cloves), fresh herbs, and no packaged masala powders. The chicken is roasted in a traditional clay oven or pan until tender, giving it a smoky aroma, and layered carefully with the fragrant rice.",
+      images: [
+        "par1.jpg",
+      "par2.jpg", 
+      "par3.jpg",
+      "par4.jpg"
+      ]
+    },
+    {
+      slug: "tomato",
+      title: "Tomato Bath",
+      description: "Simple, homely rice cooked traditionally with fresh, hand-chopped tomatoes, onions, mustard seeds, and mild spices. All ingredients are slowly sautéed and cooked over a wood flame, allowing the natural tanginess of tomatoes to blend beautifully into soft rice, served with a touch of ghee.",
+      images: [
+        "tomato1.jpg",
+      "tomato2.jpg", 
+      "tomato3.jpg"
+      
+      ]
+    },
+    {
+      slug: "motte",
+      title: "Egg Biryani",
+      description: "A well-balanced rice dish where boiled eggs are gently mixed with long-grain basmati rice, cooked with whole spices and fresh onions. No packaged masala is used—just pure, traditional methods of slow cooking in clay pots, producing a simple yet aromatic meal where each grain of rice and egg absorbs natural flavors.",
+      images: [
+        "motte1.mp4"
+      
+      
       ]
     }
   ];
@@ -68,17 +116,17 @@ export default function Recipes() {
             <span className="text-amber-500 block">Recipes</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Discover our carefully crafted recipes that blend traditional techniques with modern flavors. 
-            Each dish tells a story of our culinary journey and passion for authentic cooking.
+            Discover our carefully prepared recipes that provide traditional techniques with modern flavors. 
+            Each dish tells a story of our beautifull journey and passion for tastefull cooking.
           </p>
         </div>
 
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {[
-            { label: "Recipes Shared", value: "50+" },
-            { label: "Cooking Hours", value: "200+" },
-            { label: "Happy Meals", value: "1000+" }
+            { label: "Recipes Shared", value: "5+" },
+            { label: "Cooking Hours", value: "20+" },
+            { label: "Happy Meals", value: "10+" }
           ].map((stat, index) => (
             <div key={index} className="bg-white rounded-2xl p-6 text-center shadow-sm hover:shadow-lg transition-shadow duration-300">
               <div className="flex items-center justify-center mb-3">

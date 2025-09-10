@@ -4,24 +4,34 @@ import { Users, Heart } from 'lucide-react';
 export default function About() {
   const members = [
     {
-      name: "Arjun Kumar",
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg",
-      instagram: "arjun_cooking"
+      name: "Sudeep T(Chandu)",
+      image: "pa.jpg",
+      instagram: "chandu_sudeep__"
     },
     {
-      name: "Rohit Sharma",
-      image: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg",
-      instagram: "rohit_spices"
+      name: "Nanjesh Gowda S(Vinu)",
+      image: "member-2.jpg",
+      instagram: "vinu"
     },
     {
-      name: "Vikram Reddy",
-      image: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
-      instagram: "vikram_kitchen"
+      name: "Yogesh K(Yogi)",
+      image: "member-3.jpg",
+      instagram: "yogeshkgowdaa"
     },
     {
-      name: "Anil Krishnan",
-      image: "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg",
-      instagram: "anil_flavors"
+      name: "Tejas G(Thimma)",
+      image: "member-4.jpg",
+      instagram: "tejas_g_gowda_"
+    },
+    {
+      name: "Darshan K(PDF)",
+      image: "member-4.jpg",
+      instagram: "styleicon_dacchu"
+    },
+    {
+      name: "Srinivasa TR(Seena)",
+      image: "member-4.jpg",
+      instagram: "_mr._shetty__34"
     }
   ];
 
@@ -52,10 +62,10 @@ export default function About() {
             Our Story
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed text-center max-w-4xl mx-auto">
-            What started as weekend cooking sessions among friends has evolved into a passionate 
-            culinary journey. Each of us brings unique flavors, techniques, and traditions to the table. 
-            We believe that food is not just about nourishment, but about bringing people together, 
-            creating bonds, and preserving the rich culinary heritage of our region.
+            We started this during Covid time, where we started stealing coconut from unknown farm,
+            and continued with cooking corn, then later and later we started preparing tastefull recipes which 
+            don't have any taste and later we came as masterchef where we mastered everything by preparing through 
+            youtube. Now all of us are having good cooking skills and we wish this will continued for long.
           </p>
         </div>
 
@@ -75,8 +85,8 @@ export default function About() {
               Follow Our Journey
             </h3>
             <p className="text-gray-600 text-lg mb-6 max-w-2xl mx-auto">
-              Stay connected with us on social media to see our latest recipes, 
-              cooking adventures, and behind-the-scenes moments from our kitchen.
+              Stay connected with us on instagram to see our latest recipes only on stories not as a post, 
+              cooking adventures, and nothing you can do just watch us.
             </p>
           </div>
         </div>

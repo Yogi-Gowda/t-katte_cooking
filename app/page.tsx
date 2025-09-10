@@ -18,7 +18,7 @@ export default function Home() {
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               We are a group of food enthusiasts who love to experiment with flavors, 
-              create memorable dishes, and share our culinary journey with the world.
+              create memorable dishes, and share our beautifull journey with the world.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function Home() {
           <div className="relative max-w-4xl mx-auto mb-16">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <Image
-                src="https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg"
+                src="/images/par2.jpg"
                 alt="Tharamanakatte Boys Group Photo"
                 width={1000}
                 height={600}
@@ -69,7 +69,7 @@ export default function Home() {
               },
               {
                 title: "Fresh Ingredients",
-                description: "Only the finest and freshest ingredients make it to our kitchen"
+                description: "We only bring masala ingridients from shops and other things is purely natural"
               },
               {
                 title: "Shared Passion",

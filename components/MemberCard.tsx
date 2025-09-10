@@ -13,7 +13,7 @@ export default function MemberCard({ name, image, instagram }: MemberCardProps) 
     <div className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2 p-6">
       <div className="relative overflow-hidden rounded-xl mb-4">
         <Image
-          src={image}
+          src={`/images/${image}`}
           alt={name}
           width={300}
           height={300}
