@@ -5,7 +5,7 @@ export default function About() {
   const members = [
     {
       name: "Sudeep T(Chandu)",
-      image: "pa.jpg",
+      image: "chandu.jpg",
       instagram: "chandu_sudeep__"
     },
     {
@@ -15,17 +15,17 @@ export default function About() {
     },
     {
       name: "Yogesh K(Yogi)",
-      image: "member-3.jpg",
+      image: "yogi.jpg",
       instagram: "yogeshkgowdaa"
     },
     {
       name: "Tejas G(Thimma)",
-      image: "member-4.jpg",
+      image: "tejas.jpg",
       instagram: "tejas_g_gowda_"
     },
     {
       name: "Darshan K(PDF)",
-      image: "member-4.jpg",
+      image: "darshu.jpg",
       instagram: "styleicon_dacchu"
     },
     {
